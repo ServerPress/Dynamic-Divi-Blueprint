@@ -44,20 +44,20 @@ ds_cli_exec( "wp option update timezone_string 'America/Los_Angeles'" );
 
 /** Install & Activate Divi Builder Plugin located on the Computer - Use Path based on DS-CLI */
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/9.\ Divi\divi-builder.zip ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
+//ds_cli_exec( "cp /Volumes/Data/Premium_plugins\divi-builder.zip ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/9. Divi/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
+ds_cli_exec( "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
 
 /** Add license */
 //ds_cli_exec( "wp option add et_automatic_updates_options '{"serverpress": "d253b42255ca506650ba126feaee9395cf25dd1f"}' --format=json" );
 
 //** Install Divi Theme and Activate - Use Path based on DS-CLI
 /* Mac example */
-//ds_cli_exec( "cp /Volumes/Data/Dropbox/WP_Pithy/9.\ Divi\Divi.zip ./; wp theme install Divi.zip; rm Divi.zip" );
+//ds_cli_exec( "cp /Volumes/Data/Premium_theme\Divi.zip ./; wp theme install Divi.zip; rm Divi.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Users/gregg/Dropbox/WP_Pithy/9. Divi/Divi.zip' ./; wp theme install Divi.zip --activate; rm Divi.zip" );
+ds_cli_exec( "cp 'C:/Premium_theme/Divi.zip' ./; wp theme install Divi.zip --activate; rm Divi.zip" );
 
 
 //** Check if index.php unpacked okay
