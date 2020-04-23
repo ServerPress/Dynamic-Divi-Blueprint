@@ -60,6 +60,8 @@ ds_cli_exec( "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install div
 /* Windows example */
 ds_cli_exec( "cp 'C:/Premium_theme/Divi.zip' ./; wp theme install Divi.zip --activate; rm Divi.zip" );
 
+/* License Divi by replacing the {username} and {api key} elements to match the ones in your account(https://www.elegantthemes.com/members-area/api/) */
+ds_cli_exec( "wp option update et_automatic_updates_options '{\"username\": \"{username}\",\"api_key\": \"{api key}\" }' --format=json" );
 
 //** Check if index.php unpacked okay
 if ( is_file( "index.php" ) ) {
