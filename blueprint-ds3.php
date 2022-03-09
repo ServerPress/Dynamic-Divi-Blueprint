@@ -48,7 +48,7 @@ ds_cli_exec( "wp option update timezone_string 'America/Los_Angeles'" );
 //ds_cli_exec( "cp /Volumes/Data/Premium_plugins\divi-builder.zip ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
 
 /* Windows example */
-ds_cli_exec( "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
+//ds_cli_exec( "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip" );
 
 /** Add license */
 //ds_cli_exec( "wp option add et_automatic_updates_options '{"serverpress": "d253b42255ca506650ba126feaee9395cf25dd1f"}' --format=json" );

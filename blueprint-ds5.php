@@ -163,12 +163,12 @@ $ds_runtime->add_action('ds_workflow_create_done', function($results) {
 	//$ds_runtime->exec($cmd, $sitePath);
 
 	/* Windows example */
-	$cmd = "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip";
-	$ds_runtime->exec($cmd, $sitePath);
+	//$cmd = "cp 'C:/Premium_plugins/divi-builder.zip' ./; wp plugin install divi-builder.zip --activate; rm divi-builder.zip";
+	//$ds_runtime->exec($cmd, $sitePath);
 
 	//** Add license
-	$cmd = "wp option add et_automatic_updates_options '{"serverpress": "d253b42255ca506650ba126feaee9395cf25dd1f"}' --format=json";
-	$ds_runtime->exec($cmd, $sitePath);
+	//$cmd = "wp option add et_automatic_updates_options '{"serverpress": "d253b42255ca506650ba126feaee9395cf25dd1f"}' --format=json";
+	//$ds_runtime->exec($cmd, $sitePath);
 
 	//** Install Divi Theme and Activate - Use Path based on DS-CLI
 	/* Mac example */
